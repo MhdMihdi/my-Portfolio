@@ -1,6 +1,7 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
 import 'package:my_portfolio/app/widgets/color_chage_btn.dart';
+import 'package:my_portfolio/app/widgets/custom_outline.dart';
 import 'package:my_portfolio/changes/img.dart';
 import 'package:my_portfolio/changes/links.dart';
 import 'package:my_portfolio/changes/strings.dart';
@@ -18,6 +19,8 @@ class HomeMobile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    Size size = MediaQuery.of(context).size;
+    var theme = Theme.of(context);
     return Padding(
       padding: EdgeInsets.only(left: 10.w, top: 10.h, right: 10.w),
       child: Column(
@@ -71,12 +74,43 @@ class HomeMobile extends StatelessWidget {
                   html.window.open(resume, "pdf");
                 },
               ),
-              const EntranceFader(
-                offset: Offset(0, 0),
-                delay: Duration(seconds: 1),
-                duration: Duration(milliseconds: 800),
-                child: ZoomAnimations(),
-              )
+              SizedBox(
+                width: size.width / 3,
+                height: size.width / 3,
+                child: CustomOutline(
+                  strokeWidth: 5,
+                  radius: size.width * 0.2,
+                  padding: const EdgeInsets.all(5),
+                  width: size.width * 0.3,
+                  height: size.width * 0.3,
+                  gradient: LinearGradient(
+                      begin: Alignment.topLeft,
+                      end: Alignment.bottomRight,
+                      colors: [
+                        theme.secondaryColor,
+                        theme.secondaryColor.withOpacity(0),
+                        theme.primaryColor.withOpacity(0.1),
+                        theme.primaryColor
+                      ],
+                      stops: const [
+                        0.2,
+                        0.4,
+                        0.6,
+                        1
+                      ]),
+                  child: Container(
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle,
+                      color: Colors.black.withOpacity(0.8),
+                      image: const DecorationImage(
+                        fit: BoxFit.cover,
+                        alignment: Alignment.bottomLeft,
+                        image: AssetImage('assets/imgs/IMG_0107.png'),
+                      ),
+                    ),
+                  ),
+                ),
+              ),
             ],
           ),
         ],

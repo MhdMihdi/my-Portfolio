@@ -17,7 +17,7 @@ class Footer extends StatelessWidget {
           children: [
             Text("Developed by "),
             Text(
-              " Mohammad Mihdi ",
+              " Mohammad AlMihdi ",
               style: TextStyle(fontWeight: FontWeight.bold),
             ),
             Text(" © 2024"),
