@@ -32,6 +32,8 @@ dependencies:
   connectivity_plus: ^2.3.7
   font_awesome_flutter: ^10.9.1
   flutter_native_splash: ^2.4.6
+  flutter_launcher_icons: ^0.14.1
+
 flutter_native_splash:
   color: "#00040F"
   image: assets/imgs/splash_portfolio.png
@@ -40,17 +42,19 @@ flutter_native_splash:
   web: true
   web_image_mode: center
 
+
+flutter_launcher_icons:
+  web:
+    generate: true
+    image_path: "assets/imgs/splash_portfolio.png"
+    background_color: "#00040F"
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
   flutter_lints: ^4.0.0
-  flutter_launcher_icons: ^0.14.1
-flutter_launcher_icons:
-  web:
-    generate: true
-    image_path: "assets/imgs/person.png"
-    background_color: "#FFFFF"
+
 
 flutter:
 
