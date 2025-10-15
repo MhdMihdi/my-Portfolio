@@ -30,6 +30,15 @@ dependencies:
   cupertino_icons: ^1.0.8
   bloc: ^8.1.4
   connectivity_plus: ^2.3.7
+  font_awesome_flutter: ^10.9.1
+  flutter_native_splash: ^2.4.6
+flutter_native_splash:
+  color: "#00040F"
+  image: assets/imgs/splash_portfolio.png
+  android: false
+  ios: false
+  web: true
+  web_image_mode: center
 
 dev_dependencies:
   flutter_test:

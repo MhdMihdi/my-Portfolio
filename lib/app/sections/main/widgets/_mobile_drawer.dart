@@ -23,7 +23,7 @@ class _MobileDrawer extends StatelessWidget {
                   ListTile(
                     leading: Icon(
                       state.isDarkThemeOn
-                          ? Icons.dark_mode_outlined
+                          ? Icons.dark_mode
                           : Icons.light_mode,
                       // color: theme.textColor,
                     ),

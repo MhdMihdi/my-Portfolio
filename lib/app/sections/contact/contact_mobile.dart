@@ -48,13 +48,13 @@ class ContactMobileTab extends StatelessWidget {
                 .asMap()
                 .entries
                 .map((e) => IconButton(
-                      icon: Image.network(
+                      icon: Icon(
                         e.value.icon,
                         color: theme.textColor,
                       ),
                       onPressed: () => openURL(e.value.url),
                       highlightColor: Colors.white54,
-                      iconSize: 21,
+                      iconSize: 30,
                     ))
                 .toList()),
         Space.y(5.w)!,
