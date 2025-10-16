@@ -1,11 +1,11 @@
 {
-    "name": "my_portifolio",
-    "short_name": "my_portifolio",
+    "name": "mohammad website",
+    "short_name": "mohammad website",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#00040F",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
