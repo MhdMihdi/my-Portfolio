@@ -1,6 +1,6 @@
 // CV
 const String resume =
-    'https://drive.google.com/file/d/1HRWfrlZPxOOM_yRlACeOF4E77DZCu4Ml/view?usp=drivesdk';
+    'https://drive.google.com/file/d/1rB3idExfL9TcH14nhFVHCgNMdbmH2Xf5/view?usp=sharing';
 
 // Github Link
 const String gitHub = 'https://github.com/MhdMihdi';
