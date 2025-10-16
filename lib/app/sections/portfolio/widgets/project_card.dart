@@ -26,7 +26,7 @@ class ProjectCardState extends State<ProjectCard> {
       hoverColor: Colors.transparent,
       splashColor: Colors.transparent,
       highlightColor: Colors.transparent,
-      onTap: () => openURL(widget.project.links),
+      onTap: () => widget.project.links != null ? openURL(widget.project.links!):null,
       onHover: (isHovering) {
         if (isHovering) {
           setState(() => isHover = true);
@@ -86,7 +86,7 @@ class ProjectCardState extends State<ProjectCard> {
                   borderRadius: BorderRadius.circular(10),
                   image: DecorationImage(
                       image: AssetImage(widget.project.banners),
-                      fit: BoxFit.cover),
+                      fit: BoxFit.fill),
                 ),
                 // child: Image.asset(
                 //   widget.project.banners,
