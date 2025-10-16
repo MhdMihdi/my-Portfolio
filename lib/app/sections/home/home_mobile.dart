@@ -5,8 +5,6 @@ import 'package:my_portfolio/app/widgets/custom_outline.dart';
 import 'package:my_portfolio/changes/img.dart';
 import 'package:my_portfolio/changes/links.dart';
 import 'package:my_portfolio/changes/strings.dart';
-import 'package:my_portfolio/core/animations/entrance_fader.dart';
-import 'package:my_portfolio/core/animations/zoom_animation.dart';
 import 'package:my_portfolio/core/configs/configs.dart';
 import 'package:my_portfolio/core/res/responsive_size.dart';
 import 'package:sizer/sizer.dart';

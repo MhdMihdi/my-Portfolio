@@ -1,11 +1,8 @@
 import 'dart:ui';
-
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:my_portfolio/app/widgets/arrow_on_top.dart';
 import 'package:my_portfolio/app/widgets/color_chage_btn.dart';
 import 'package:my_portfolio/changes/links.dart';
-import 'package:my_portfolio/core/apis/links.dart';
 import 'package:my_portfolio/core/color/colors.dart';
 import 'package:my_portfolio/core/configs/app.dart';
 import 'package:my_portfolio/core/configs/configs.dart';

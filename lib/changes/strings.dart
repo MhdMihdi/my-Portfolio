@@ -4,7 +4,7 @@ String yourname = "I'm Mohammad AlMihdi,";
 // String hometitle2 = "A Mobile Application\nDeveloper";
 
 String animationtxt1 = " Software Engineer";
-String animationtxt2 = " Mobile Application Developer";
+String animationtxt2 = " Flutter Developer";
 
 //
 String contactHeadding = "Let’s try my service now!";

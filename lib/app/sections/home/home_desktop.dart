@@ -1,6 +1,5 @@
 import 'package:my_portfolio/app/sections/home/widgets/animation_text.dart';
 import 'package:my_portfolio/app/widgets/custom_outline.dart';
-import 'package:my_portfolio/core/animations/zoom_animation.dart';
 import 'package:my_portfolio/core/res/responsive_size.dart';
 import 'package:sizer/sizer.dart';
 import 'package:universal_html/html.dart' as html;

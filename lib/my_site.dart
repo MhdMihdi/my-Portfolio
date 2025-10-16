@@ -30,8 +30,8 @@ class MySite extends StatelessWidget {
               debugShowCheckedModeBanner: false,
               title: 'mohammad website',
               theme: AppTheme.themeData(state.isDarkThemeOn, context),
-              initialRoute: "/",
-              routes: {"/": (context) => const NChecking()},
+              initialRoute: "/home",
+              routes: {"/home": (context) => const NChecking()},
             );
           });
         }),
