@@ -58,6 +58,7 @@ class HomeTab extends StatelessWidget {
                     image: const DecorationImage(
                       fit: BoxFit.cover,
                       alignment: Alignment.bottomLeft,
+                      filterQuality: FilterQuality.none,
                       image: AssetImage('assets/imgs/picture.png'),
                     ),
                   ),
