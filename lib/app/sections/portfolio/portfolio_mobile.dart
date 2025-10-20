@@ -1,5 +1,6 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
+import 'package:my_portfolio/app/sections/portfolio/widgets/portfolio_card_mobile.dart';
 import 'package:my_portfolio/app/utils/project_utils.dart';
 import 'package:my_portfolio/app/widgets/custom_text_heading.dart';
 import 'package:my_portfolio/changes/links.dart';
@@ -7,8 +8,6 @@ import 'package:my_portfolio/changes/strings.dart';
 import 'package:my_portfolio/core/configs/configs.dart';
 import 'package:my_portfolio/core/util/constants.dart';
 import 'package:sizer/sizer.dart';
-
-import 'widgets/project_card.dart';
 
 class PortfolioMobileTab extends StatelessWidget {
   const PortfolioMobileTab({super.key});
@@ -29,10 +28,10 @@ class PortfolioMobileTab extends StatelessWidget {
           itemCount: projectUtils.length,
           itemBuilder: (BuildContext context, int itemIndex, int i) => Padding(
             padding: const EdgeInsets.symmetric(vertical: 15.0),
-            child: ProjectCard(project: projectUtils[i]),
+            child: ProjectCardMobile(project: projectUtils[i]),
           ),
           options: CarouselOptions(
-            height: height * 0.4,
+            height: height * 0.5,
             autoPlay: true,
             autoPlayInterval: const Duration(seconds: 5),
             enlargeCenterPage: true,
