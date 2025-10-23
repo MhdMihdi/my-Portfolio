@@ -12,5 +12,7 @@ const String facebook = 'https://facebook.com/mohammad.mihdi.902';
 const String linkedin = 'https://linkedin.com/in/mohammad-mihdi-490001289';
 // instagram Link
 const String instagram = 'https://instagram.com/mhd_mihdi';
+
+final  String whatsappMessage = Uri.encodeComponent('Hello Mohammad 👋 \nI would like to ask about your services.');
 // Whatsapp Link
-const String whatsapp = 'https://api.whatsapp.com/send?phone=963992281939';
+String whatsapp = 'https://api.whatsapp.com/send?phone=963992281939&text=$whatsappMessage';
