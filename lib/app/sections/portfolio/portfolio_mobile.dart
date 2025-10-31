@@ -3,10 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:my_portfolio/app/sections/portfolio/widgets/portfolio_card_mobile.dart';
 import 'package:my_portfolio/app/utils/project_utils.dart';
 import 'package:my_portfolio/app/widgets/custom_text_heading.dart';
-import 'package:my_portfolio/changes/links.dart';
+import 'package:my_portfolio/app/widgets/snack_bar.dart';
 import 'package:my_portfolio/changes/strings.dart';
 import 'package:my_portfolio/core/configs/configs.dart';
-import 'package:my_portfolio/core/util/constants.dart';
 import 'package:sizer/sizer.dart';
 
 class PortfolioMobileTab extends StatelessWidget {
@@ -42,7 +41,7 @@ class PortfolioMobileTab extends StatelessWidget {
         ),
         Space.y(3.w)!,
         OutlinedButton(
-          onPressed: () => openURL(gitHub),
+          onPressed: () => SnackbarUtils.showSnackBar(context, 'Coming soon'),
           child: const Padding(
             padding: EdgeInsets.all(8.0),
             child: Text(
