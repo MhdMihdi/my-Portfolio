@@ -24,7 +24,7 @@ class WorkExperienceMobileTab extends StatelessWidget {
             child: WorkExperienceCardMobile(experience: workExperiences[i]),
           ),
           options: CarouselOptions(
-            height: height * 0.55,
+            height: height * 0.70,
             autoPlay: true,
             autoPlayInterval: const Duration(seconds: 5),
             enlargeCenterPage: true,
