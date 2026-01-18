@@ -8,14 +8,14 @@ import 'package:sizer/sizer.dart';
 
 import 'widgets/project_card.dart';
 
-class PortfolioDesktop extends StatefulWidget {
-  const PortfolioDesktop({super.key});
+class ProjectsDesktop extends StatefulWidget {
+  const ProjectsDesktop({super.key});
 
   @override
-  State<PortfolioDesktop> createState() => _PortfolioDesktopState();
+  State<ProjectsDesktop> createState() => _ProjectsDesktopState();
 }
 
-class _PortfolioDesktopState extends State<PortfolioDesktop> {
+class _ProjectsDesktopState extends State<ProjectsDesktop> {
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;

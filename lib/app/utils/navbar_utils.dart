@@ -5,13 +5,15 @@ class NavBarUtils {
     'HOME',
     // 'ABOUT',
     'SERVICES',
-    'WORKS',
+    'WORK EXPERIENCE',
+    'Projects',
     'CONTACT',
   ];
 
   static const List<IconData> icons = [
     Icons.home,
     // Icons.person,
+    Icons.home_repair_service,
     Icons.work,
     Icons.build,
     Icons.settings,
