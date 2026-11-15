@@ -1,4 +1,4 @@
-import 'package:flutter/cupertino.dart';
+import 'package:cupertino_ui/cupertino_ui.dart';
 import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
 
 class ScrollProvider extends ChangeNotifier {

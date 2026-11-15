@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:my_portfolio/app/sections/contact/contact.dart';
 import 'package:my_portfolio/app/sections/home/home.dart';
 import 'package:my_portfolio/app/sections/Projects/projects.dart';

@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 double isFontSize(BuildContext context, double val) {
   double width = MediaQuery.of(context).size.width;

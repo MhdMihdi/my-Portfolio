@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'projects_desktop.dart';
 import 'projects_mobile.dart';
 import 'package:my_portfolio/core/res/responsive.dart';

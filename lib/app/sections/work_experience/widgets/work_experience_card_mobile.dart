@@ -1,9 +1,7 @@
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:my_portfolio/app/utils/work_experience_utils.dart';
 import 'package:my_portfolio/app/widgets/store_icon.dart';
 import 'package:my_portfolio/core/color/colors.dart';
-import 'package:my_portfolio/core/configs/configs.dart';
-import 'package:my_portfolio/core/res/responsive.dart';
 import 'package:my_portfolio/core/util/constants.dart';
 import 'package:sizer/sizer.dart';
 
@@ -83,7 +81,7 @@ class WorkExperienceCardMobile extends StatelessWidget {
                   vertical: 4,
                 ),
                 decoration: BoxDecoration(
-                  color: primaryColor.withOpacity(0.15),
+                  color: primaryColor.withValues(alpha: 0.15),
                   borderRadius: BorderRadius.circular(20),
                 ),
                 child: Text(

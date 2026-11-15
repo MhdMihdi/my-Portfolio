@@ -1,5 +1,5 @@
 import 'package:carousel_slider/carousel_slider.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:my_portfolio/app/sections/Projects/widgets/project_card_mobile.dart';
 import 'package:my_portfolio/app/utils/project_utils.dart';
 import 'package:my_portfolio/app/widgets/custom_text_heading.dart';

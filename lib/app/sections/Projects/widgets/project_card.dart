@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:my_portfolio/app/utils/project_utils.dart';
 import 'package:my_portfolio/core/color/colors.dart';
 import 'package:my_portfolio/core/configs/configs.dart';

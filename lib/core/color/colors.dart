@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 const primaryColor = Color(0xFF09FBD3);
 const secondaryColor = Color(0xFFFE53BB);

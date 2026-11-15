@@ -1,9 +1,8 @@
 import 'package:carousel_slider/carousel_slider.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:my_portfolio/app/sections/work_experience/widgets/work_experience_card_mobile.dart';
 import 'package:my_portfolio/app/utils/work_experience_utils.dart';
 import 'package:my_portfolio/app/widgets/custom_text_heading.dart';
-import 'package:my_portfolio/app/widgets/snack_bar.dart';
 import 'package:my_portfolio/core/configs/configs.dart';
 import 'package:sizer/sizer.dart';
 

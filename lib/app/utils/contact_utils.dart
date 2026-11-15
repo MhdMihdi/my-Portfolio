@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:my_portfolio/changes/links.dart';
 
@@ -21,10 +21,10 @@ List<ContactUtils> contactUtils = [
   //     icon: "https://img.icons8.com/ios-filled/50/000000/facebook-new.png"),
   ContactUtils(
       url: whatsapp,
-      icon: FontAwesomeIcons.whatsapp),
+      icon: FontAwesomeIcons.whatsapp.data),
   ContactUtils(
       url: linkedin,
-      icon: FontAwesomeIcons.linkedin),
+      icon: FontAwesomeIcons.linkedin.data),
   // ContactUtils(
   //     url: instagram,
   //     icon: "https://img.icons8.com/glyph-neue/64/000000/instagram-new.png"),

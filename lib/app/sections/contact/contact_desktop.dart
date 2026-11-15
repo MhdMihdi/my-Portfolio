@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:my_portfolio/app/utils/contact_utils.dart';
 import 'package:my_portfolio/app/widgets/custom_text_heading.dart';
 import 'package:my_portfolio/changes/links.dart';
@@ -94,7 +94,7 @@ class ContactDesktop extends StatelessWidget {
                     ),
                   ],
                 ),
-                Container(color: Colors.white.withOpacity(0.2), height: 1),
+                Container(color: Colors.white.withValues(alpha: 0.2), height: 1),
                 Space.y(2.w)!,
                 Wrap(
                     alignment: WrapAlignment.center,

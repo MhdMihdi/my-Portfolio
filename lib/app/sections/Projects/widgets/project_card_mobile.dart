@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:my_portfolio/app/utils/project_utils.dart';
 import 'package:my_portfolio/core/color/colors.dart';
 import 'package:my_portfolio/core/configs/configs.dart';
@@ -67,7 +67,7 @@ class ProjectCardState extends State<ProjectCardMobile> {
                     fit: BoxFit.fill,
                     colorFilter: isTouchDevice
                         ? ColorFilter.mode(
-                      Colors.black.withOpacity(0.45),
+                      Colors.black.withValues(alpha: 0.45),
                       BlendMode.darken,
                     )
                         : null,

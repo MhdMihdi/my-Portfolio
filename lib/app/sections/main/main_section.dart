@@ -16,7 +16,7 @@ import 'package:my_portfolio/core/res/responsive.dart';
 import 'package:my_portfolio/core/theme/cubit/theme_cubit.dart';
 import 'package:provider/provider.dart';
 import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:my_portfolio/core/util/constants.dart';
 import 'package:sizer/sizer.dart';
 part 'widgets/_navbar_desktop.dart';
@@ -76,7 +76,7 @@ class MainPage extends StatelessWidget {
                   width: 200,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    color: primaryColor.withOpacity(0.5),
+                    color: primaryColor.withValues(alpha: 0.5),
                   ),
                   child: BackdropFilter(
                     filter: ImageFilter.blur(

@@ -4,7 +4,7 @@ import 'package:my_portfolio/core/res/responsive_size.dart';
 import 'package:sizer/sizer.dart';
 import 'package:universal_html/html.dart' as html;
 import 'package:animated_text_kit/animated_text_kit.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:my_portfolio/app/widgets/color_chage_btn.dart';
 import 'package:my_portfolio/changes/img.dart';
 import 'package:my_portfolio/changes/links.dart';
@@ -85,7 +85,7 @@ class HomeDesktop extends StatelessWidget {
                         style: TextStyle(
                           fontSize: isFontSize(context, 20),
                           fontWeight: FontWeight.w400,
-                          color: theme.textColor.withOpacity(0.6),
+                          color: theme.textColor.withValues(alpha: 0.6),
                         )),
                   ),
                   Space.y(1.w)!,
@@ -115,8 +115,8 @@ class HomeDesktop extends StatelessWidget {
                     end: Alignment.bottomRight,
                     colors: [
                       theme.secondaryColor,
-                      theme.secondaryColor.withOpacity(0),
-                      theme.primaryColor.withOpacity(0.1),
+                      theme.secondaryColor.withValues(alpha: 0),
+                      theme.primaryColor.withValues(alpha: 0.1),
                       theme.primaryColor
                     ],
                     stops: const [
@@ -128,7 +128,7 @@ class HomeDesktop extends StatelessWidget {
                 child: Container(
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Colors.black.withOpacity(0.8),
+                    color: Colors.black.withValues(alpha: 0.8),
                     image: const DecorationImage(
                       fit: BoxFit.cover,
                       alignment: Alignment.bottomLeft,
